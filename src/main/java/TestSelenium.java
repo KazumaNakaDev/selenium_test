@@ -5,10 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class TestSelenium {
 
     public static void main(String[] args) {
-
         demo();
-
-
     }
 
     private static void demo() {
