@@ -6,14 +6,14 @@ public class TestSelenium {
 
     public static void main(String[] args) {
 
-        initialize();
+        demo();
 
 
     }
 
-    private static void initialize() {
+    private static void demo() {
 
-        System.setProperty("webdriver.gecko.driver", "/Users/admin/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "./src/main/resources/drivers/geckodriver");
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("http://demo.guru99.com/");
         WebElement element = driver.findElement(By.xpath("//input[@name='emailid']"));
